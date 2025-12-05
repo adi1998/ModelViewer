@@ -204,7 +204,7 @@ mod.UnitData = {
         StartGraphic = "",
 		MoveGraphic = "",
 		StopGraphic = "",
-        Package = "",
+        Package = "BiomeIHouse",
     },
 
     NPC_LightRanged = {
@@ -474,7 +474,7 @@ mod.UnitData = {
         StartGraphic = "None",
 		MoveGraphic = "None",
 		StopGraphic = "None",
-        Package = "",
+        Package = "BiomeIHouse",
     },
 
     SiegeVine = {
@@ -501,7 +501,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_FishmanMelee_MoveStart",
 		MoveGraphic = "Enemy_FishmanMelee_Move",
 		StopGraphic = "Enemy_FishmanMelee_MoveStop",
-        Package = "",
+        Package = "BiomeG",
     },
 
     FishmanRanged = {
@@ -555,7 +555,7 @@ mod.UnitData = {
         StartGraphic = "None",
 		MoveGraphic = "Enemy_MudmanEye_Move",
 		StopGraphic = "None",
-        Package = "",
+        Package = "BiomeQEnding",
     },
 
     Zombie = {
@@ -609,7 +609,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_GoldElemental_MoveStart",
 		MoveGraphic = "Enemy_GoldElemental_Move",
 		StopGraphic = "Enemy_GoldElemental_MoveStop",
-        Package = "",
+        Package = "BiomeH",
     },
 
     TimeElemental = {
@@ -744,7 +744,7 @@ mod.UnitData = {
         StartGraphic = "None",
 		MoveGraphic = "Enemy_Eyeball_Move",
 		StopGraphic = "Enemy_Eyeball_MoveStop",
-        Package = "",
+        Package = "BiomeQ",
     },
 
     CorruptedShadeSmall = {
@@ -753,7 +753,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_CorruptedShadeS_MoveStart",
 		MoveGraphic = "Enemy_CorruptedShadeS_Move",
 		StopGraphic = "Enemy_CorruptedShadeS_MoveStop",
-        Package = "",
+        Package = "BiomeH",
     },
 
     CorruptedShadeMedium = {
@@ -762,7 +762,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_CorruptedShadeM_MoveStart",
 		MoveGraphic = "Enemy_CorruptedShadeM_Move",
 		StopGraphic = "Enemy_CorruptedShadeM_MoveStop",
-        Package = "",
+        Package = "BiomeH",
     },
 
     CorruptedShadeLarge = {
@@ -771,7 +771,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_CorruptedShadeL_MoveStart",
 		MoveGraphic = "Enemy_CorruptedShadeL_Move",
 		StopGraphic = "Enemy_CorruptedShadeL_MoveStop",
-        Package = "",
+        Package = "BiomeH",
     },
 
     BrokenHearted = {
@@ -861,7 +861,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_EarthElemental_MoveStart",
 		MoveGraphic = "Enemy_EarthElemental_Move",
 		StopGraphic = "Enemy_EarthElemental_MoveStop",
-        Package = "",
+        Package = "BiomeQ",
     },
 
     Mati = {
@@ -870,7 +870,7 @@ mod.UnitData = {
         StartGraphic = "None",
 		MoveGraphic = "None",
 		StopGraphic = "None",
-        Package = "",
+        Package = "BiomeQ",
     },
 
     SentryBot = {
@@ -936,15 +936,6 @@ mod.UnitData = {
         Package = "Fx",
     },
 
-    ["1_BaseAlly"] = {
-        GrannyModel = "Swarmer_Mesh",
-        Graphic = "Enemy_Swarmer_Idle",
-        StartGraphic = "",
-		MoveGraphic = "",
-		StopGraphic = "",
-        Package = "",
-    },
-
     FrogFamiliar = {
         GrannyModel = "Frog_Mesh",
         Graphic = "Familiar_Frog_Idle",
@@ -996,7 +987,7 @@ mod.UnitData = {
         StartGraphic = "None",
 		MoveGraphic = "Enemy_Sheep_Move",
 		StopGraphic = "Enemy_Sheep_MoveStop",
-        Package = "",
+        Package = "BiomeN",
     },
 
     Pig = {
@@ -1023,7 +1014,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_BloodlessNaked_MoveStart",
 		MoveGraphic = "Enemy_BloodlessNaked_Move",
 		StopGraphic = "Enemy_BloodlessNaked_MoveStop",
-        Package = "",
+        Package = "BiomeB",
     },
 
     BloodlessGrenadier = {
@@ -1032,7 +1023,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_BloodlessGrenadier_Move_Start",
 		MoveGraphic = "Enemy_BloodlessGrenadier_Move_FireLoop",
 		StopGraphic = "Enemy_BloodlessGrenadier_Move_End",
-        Package = "",
+        Package = "BiomeB",
     },
 
     DragonBurrower = {
@@ -1041,7 +1032,7 @@ mod.UnitData = {
         StartGraphic = "None",
 		MoveGraphic = "None",
 		StopGraphic = "None",
-        Package = "",
+        Package = "BiomeQ",
     },
 
     ThiefMineLayer = {
@@ -1050,7 +1041,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_ThiefMineLayer_MoveStart",
 		MoveGraphic = "Enemy_ThiefMineLayer_Move",
 		StopGraphic = "Enemy_ThiefMineLayer_MoveStop",
-        Package = "",
+        Package = "BiomeG",
     },
 
     Swarmer = {
@@ -1059,7 +1050,7 @@ mod.UnitData = {
         StartGraphic = "Enemy_Swarmer_MoveStart",
 		MoveGraphic = "Enemy_Swarmer_Move",
 		StopGraphic = "Enemy_Swarmer_MoveStop",
-        Package = "",
+        Package = "BiomeB",
     },
 
     Hecate = {
@@ -1077,7 +1068,7 @@ mod.UnitData = {
         StartGraphic = "",
 		MoveGraphic = "",
 		StopGraphic = "",
-        Package = "",
+        Package = "BiomeF",
     },
 
     InfestedCerberus = {
@@ -1176,7 +1167,7 @@ mod.UnitData = {
         StartGraphic = "None",
 		MoveGraphic = "None",
 		StopGraphic = "None",
-        Package = "",
+        Package = "BiomeO",
     },
 
     CharybdisTentacle = {
@@ -1239,7 +1230,7 @@ mod.UnitData = {
         StartGraphic = "Heracles_Combat_MoveStart",
 		MoveGraphic = "Heracles_Combat_Move",
 		StopGraphic = "Heracles_Combat_MoveStop",
-        Package = "",
+        Package = "BiomeO",
     },
 
     Zagreus = {
@@ -1303,33 +1294,6 @@ mod.UnitData = {
 		MoveGraphic = "Enemy_Mage_Move",
 		StopGraphic = "Enemy_Mage_MoveStop",
         Package = "BiomeF",
-    },
-
-    TestEnemy1 = {
-        GrannyModel = "EnemyTest_Mesh",
-        Graphic = "Enemy_Test1_Idle",
-        StartGraphic = "",
-		MoveGraphic = "",
-		StopGraphic = "",
-        Package = "",
-    },
-
-    TestEnemy2 = {
-        GrannyModel = "EnemyTest_Mesh",
-        Graphic = "Enemy_Test2_Idle",
-        StartGraphic = "",
-		MoveGraphic = "",
-		StopGraphic = "",
-        Package = "",
-    },
-
-    TestEnemy3 = {
-        GrannyModel = "EnemyTest_Mesh",
-        Graphic = "Enemy_Test3_Idle",
-        StartGraphic = "",
-		MoveGraphic = "",
-		StopGraphic = "",
-        Package = "",
     },
 }
 
