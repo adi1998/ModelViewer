@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "zerp"
 name = "ModelViewer"
 versionNumber = "0.0.1"
-description = "Hades II mod allowing you to select a dress for Melinoe. Includes updated portraits for each Arachne dress. Options to add favorites and randomize dress on run start"
+description = "Basic Hades 2 mod to randomly cycle through all 3D models for NPCs over player character. Press Gift to cycle"
 websiteUrl = "https://github.com/adi1998/ModelViewer"
 containsNsfwContent = false
 
