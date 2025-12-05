@@ -44,14 +44,18 @@ local function on_ready()
     mod = modutil.mod.Mod.Register(_PLUGIN.guid)
 
     import 'data.lua'
+    import 'units.lua'
     import 'sjson.lua'
-    import 'ready.lua'
+    mod.index = 1
+
+
 end
 
 local function on_reload()
     -- what to do when we are ready, but also again on every reload.
     -- only do things that are safe to run over and over.
     if config.enabled == false then return end
+    import 'reload.lua'
     
 end
 
