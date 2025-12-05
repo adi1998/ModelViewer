@@ -408,9 +408,9 @@ mod.UnitData = {
     Brawler = {
         GrannyModel = "Brawler_Mesh",
         Graphic = "Enemy_Brawler_Idle",
-        StartGraphic = "",
+        StartGraphic = "Enemy_Brawler_MoveStart",
 		MoveGraphic = "Enemy_Brawler_Move",
-		StopGraphic = "null",
+		StopGraphic = "Enemy_Brawler_MoveStop",
         Package = "BiomeF",
     },
 
