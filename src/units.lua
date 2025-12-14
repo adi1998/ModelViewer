@@ -963,14 +963,24 @@ mod.UnitData = {
         Package = "RavenFamiliar",
     },
 
+    HoundMarker = {
+        GrannyModel = "HoundMarker_Mesh",
+        Graphic = "HoundMarkerIdle",
+        StartGraphic = "HoundMarkerMove",
+		MoveGraphic = "HoundMarkerMove",
+		StopGraphic = "HoundMarkerMove",
+        Package = "HoundFamiliar",
+    },
+
     HoundFamiliar = {
         GrannyModel = "HoundFamiliar_Mesh",
-        Graphic = "Familiar_Hound_Sit_Idle",
+        Graphic = "Familiar_Hound_Idle",
         StartGraphic = "Familiar_Hound_Move_Start",
 		MoveGraphic = "Familiar_Hound_Move",
 		StopGraphic = "Familiar_Hound_Move_Stop",
         Package = "HoundFamiliar",
     },
+
 
     PolecatFamiliar = {
         GrannyModel = "PolecatFamiliar_Mesh",
@@ -1298,3 +1308,4 @@ mod.UnitData = {
 }
 
 mod.EnemyArray = game.GetAllKeys(mod.UnitData)
+table.sort(mod.EnemyArray)
