@@ -15,7 +15,7 @@
 tcli.exe
 
 # ignore unpacked package contents
-/data/zerp-MelSkin
+/data/zerp-ModelViewer
 
 # ignore PSD files
 *.psd
