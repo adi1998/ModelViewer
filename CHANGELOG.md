@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.1.0] - 2025-12-14
+
 - Add imgui with list of all models
 - Add texture overriding support
 - Remove toggle keybind.
@@ -10,5 +12,6 @@
 
 - Initial version
 
-[unreleased]: https://github.com/adi1998/ModelViewer/compare/0.0.1...HEAD
+[unreleased]: https://github.com/adi1998/ModelViewer/compare/0.1.0...HEAD
+[0.1.0]: https://github.com/adi1998/ModelViewer/compare/0.0.1...0.1.0
 [0.0.1]: https://github.com/adi1998/ModelViewer/compare/1850f1a4f65c39005c4a82621857f8261620e8d6...0.0.1
