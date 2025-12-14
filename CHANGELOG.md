@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+- Add imgui with list of all models
+- Add texture overriding support
+- Remove toggle keybind.
+
 ## [0.0.1] - 2025-12-05
 
 - Initial version
