@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "zerp"
 name = "ModelViewer"
 versionNumber = "0.0.1"
-description = "Basic Hades 2 mod to randomly cycle through all 3D models for NPCs over player character. Press Gift to cycle"
+description = "Basic model viewer for all the NPCs/Units/Enemies. Supports hot reloading custom textures by just updating a PNG file."
 websiteUrl = "https://github.com/adi1998/ModelViewer"
 containsNsfwContent = false
 
