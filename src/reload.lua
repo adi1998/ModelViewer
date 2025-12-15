@@ -1,8 +1,8 @@
 mod.TestArray = {"HoundMarker", "HoundMarkerCerb", "HoundMarkerColorMap"}
 
 local pluginsData = rom.path.combine(rom.paths.plugins_data(), _PLUGIN.guid)
-local rebuildCommand = "powershell \"" .. pluginsData .. "\\build.ps1\""
--- local rebuildCommand = "cd \"" .. pluginsData .. "\" & cd & pwsh build.ps1"
+-- local rebuildCommand = "powershell \"" .. pluginsData .. "\\build.ps1\""
+local rebuildCommand = "C: & cd \"" .. pluginsData .. "\" & deppth2 hpk -s \"" .. pluginsData .. "\" -t \"" .. pluginsData .. "\\zerp-ModelViewer\""
 
 print(pluginsData)
 print(rebuildCommand)
