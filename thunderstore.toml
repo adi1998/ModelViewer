@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "zerp"
 name = "ModelViewer"
-versionNumber = "0.0.1"
+versionNumber = "0.1.0"
 description = "Basic model viewer for all the NPCs/Units/Enemies. Supports hot reloading custom textures by just updating a PNG file."
 websiteUrl = "https://github.com/adi1998/ModelViewer"
 containsNsfwContent = false
