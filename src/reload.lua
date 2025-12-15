@@ -7,7 +7,7 @@ local rebuildCommand = "C: & cd \"" .. pluginsData .. "\" & deppth2 hpk -s \"" .
 print(pluginsData)
 print(rebuildCommand)
 
-function mod.UpdateModel(model,grannytexture,pkg)
+function mod.UpdateModel(model, grannytexture, pkg)
     local unit = mod.UnitData[model]
     local mesh = unit.GrannyModel
     local texture = grannytexture or unit.GrannyTexture
@@ -38,7 +38,7 @@ function mod.UpdateModel(model,grannytexture,pkg)
         LoadPackages({Names = {"BiomeHub", "Fx", "ScriptsBase"}})
     end
     
-    mod.LastPackage = unit.Package
+    mod.LastPackage = package
     SetThingProperty({ Property = "GrannyModel", Value = mesh, DestinationId = CurrentRun.Hero.ObjectId })
     SetThingProperty({ Property = "Graphic", Value = graphic, DestinationId = CurrentRun.Hero.ObjectId })
     SetUnitProperty({ Property = "StartGraphic", Value = start, DestinationId = CurrentRun.Hero.ObjectId })
